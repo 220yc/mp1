@@ -1,13 +1,650 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>MP1</title>
-    </head>
-    <body>
-        <h1>Hello World! Welcome to MP1!</h1>
-        <img src="assets/image.jpg">
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Christine Liou | Developer Portfolio</title>
+</head>
+
+<body>
+
+    <header id="header">
+
+        <nav class="nav-container" aria-label="Main navigation">
+
+            <a class="logo" href="#home">
+                <span class="logo-mark">&gt;_</span>
+                ChristineOS
+            </a>
+
+            <div class="nav-menu">
+
+                <a href="#home" class="nav-link active">
+                    Home
+                </a>
+
+                <a href="#about" class="nav-link">
+                    About
+                </a>
+
+                <a href="#projects" class="nav-link">
+                    Projects
+                </a>
+
+                <a href="#video" class="nav-link">
+                    Demo
+                </a>
+
+                <a href="#contact" class="nav-link">
+                    Contact
+                </a>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- HOME -->
+        <section id="home" class="section hero">
+
+            <div class="content hero-content">
+
+                <div class="status-badge">
+                    <span class="status-dot"></span>
+                    SYSTEM READY
+                </div>
+
+                <p class="terminal-path">
+                    ~/portfolio/christine
+                </p>
+
+                <h1>
+                    Christine Liou
+                </h1>
+
+                <p class="hero-role">
+                    SOFTWARE ENGINEERING
+                    <span>/</span>
+                    AI
+                    <span>/</span>
+                    FULL-STACK
+                </p>
+
+                <p class="hero-text">
+                    Master of Computer Science student at the
+                    University of Illinois Urbana-Champaign.
+                    I enjoy building software, exploring artificial intelligence,
+                    and turning ideas into working applications.
+                </p>
+
+                <div class="hero-actions">
+
+                    <a href="#projects" class="main-button">
+                        View Projects
+                    </a>
+
+                    <a href="#about" class="secondary-link">
+                        About Me
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT -->
+        <section id="about" class="section about">
+
+            <div class="content">
+
+                <div class="section-title">
+
+                    <p class="section-code">
+                        01 / ABOUT
+                    </p>
+
+                    <h2>
+                        What I Like to Build
+                    </h2>
+
+                    <p class="section-intro">
+                        My interests connect software development,
+                        artificial intelligence, and full-stack systems.
+                    </p>
+
+                </div>
+
+
+                <div class="three-columns">
+
+                    <article class="info-card">
+
+                        <div class="card-top">
+
+                            <div
+                                class="card-icon code-icon"
+                                aria-hidden="true">
+                            </div>
+
+                            <span class="module-number">
+                                01
+                            </span>
+
+                        </div>
+
+                        <h3>
+                            Software Development
+                        </h3>
+
+                        <p>
+                            I enjoy building applications and learning how
+                            frontend, backend, APIs, and databases work together.
+                        </p>
+
+                        <span class="card-status">
+                            module/software
+                        </span>
+
+                    </article>
+
+
+                    <article class="info-card">
+
+                        <div class="card-top">
+
+                            <div
+                                class="card-icon ai-icon"
+                                aria-hidden="true">
+                            </div>
+
+                            <span class="module-number">
+                                02
+                            </span>
+
+                        </div>
+
+                        <h3>
+                            Artificial Intelligence
+                        </h3>
+
+                        <p>
+                            I am interested in machine learning,
+                            NLP, computer vision, large language models,
+                            and practical AI applications.
+                        </p>
+
+                        <span class="card-status">
+                            module/intelligence
+                        </span>
+
+                    </article>
+
+
+                    <article class="info-card">
+
+                        <div class="card-top">
+
+                            <div
+                                class="card-icon web-icon"
+                                aria-hidden="true">
+                            </div>
+
+                            <span class="module-number">
+                                03
+                            </span>
+
+                        </div>
+
+                        <h3>
+                            Full-Stack Projects
+                        </h3>
+
+                        <p>
+                            I like creating complete systems that connect
+                            user interfaces with backend services and databases.
+                        </p>
+
+                        <span class="card-status">
+                            module/full-stack
+                        </span>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECTS -->
+        <section id="projects" class="section projects">
+
+            <div class="content">
+
+                <div class="section-title dark-title">
+
+                    <p class="section-code">
+                        02 / PROJECTS
+                    </p>
+
+                    <h2>
+                        Selected Work
+                    </h2>
+
+                    <p class="section-intro">
+                        Use the arrows to browse through three projects.
+                    </p>
+
+                </div>
+
+
+                <div class="carousel">
+
+                    <button
+                        id="prevButton"
+                        class="carousel-button left"
+                        type="button"
+                        aria-label="Previous project">
+                        &#10094;
+                    </button>
+
+
+                    <div class="carousel-window">
+
+                        <div
+                            id="carouselTrack"
+                            class="carousel-track slide-0">
+
+
+                            <!-- Project 1 -->
+                            <article class="slide">
+
+                                <p class="project-path">
+                                    /projects/01
+                                </p>
+
+                                <p class="project-label">
+                                    PROJECT 01
+                                </p>
+
+                                <h3>
+                                    Multi-Turn Jailbreaking Evaluation for LLMs
+                                </h3>
+
+                                <p class="project-description">
+                                    An evaluation framework for studying how
+                                    large language models react to multi-turn
+                                    attack strategies.
+                                </p>
+
+                                <div class="tags">
+                                    <span>Python</span>
+                                    <span>LLM</span>
+                                    <span>NLP</span>
+                                </div>
+
+                                <button
+                                    class="details-button"
+                                    type="button"
+                                    data-project="llm">
+                                    Open Details
+                                </button>
+
+                            </article>
+
+
+                            <!-- Project 2 -->
+                            <article class="slide">
+
+                                <p class="project-path">
+                                    /projects/02
+                                </p>
+
+                                <p class="project-label">
+                                    PROJECT 02
+                                </p>
+
+                                <h3>
+                                    Booking &amp; Admin Management System
+                                </h3>
+
+                                <p class="project-description">
+                                    A full-stack reservation system with
+                                    authentication, booking management,
+                                    database operations, and role-based pages.
+                                </p>
+
+                                <div class="tags">
+                                    <span>PHP</span>
+                                    <span>MySQL</span>
+                                    <span>JavaScript</span>
+                                </div>
+
+                                <button
+                                    class="details-button"
+                                    type="button"
+                                    data-project="booking">
+                                    Open Details
+                                </button>
+
+                            </article>
+
+
+                            <!-- Project 3 -->
+                            <article class="slide">
+
+                                <p class="project-path">
+                                    /projects/03
+                                </p>
+
+                                <p class="project-label">
+                                    PROJECT 03
+                                </p>
+
+                                <h3>
+                                    LeetCode Practice Platform
+                                </h3>
+
+                                <p class="project-description">
+                                    A coding practice platform that organizes
+                                    programming problems and tracks user performance.
+                                </p>
+
+                                <div class="tags">
+                                    <span>Python</span>
+                                    <span>FastAPI</span>
+                                    <span>PostgreSQL</span>
+                                </div>
+
+                                <button
+                                    class="details-button"
+                                    type="button"
+                                    data-project="leetcode">
+                                    Open Details
+                                </button>
+
+                            </article>
+
+                        </div>
+
+                    </div>
+
+
+                    <button
+                        id="nextButton"
+                        class="carousel-button right"
+                        type="button"
+                        aria-label="Next project">
+                        &#10095;
+                    </button>
+
+                </div>
+
+
+                <div class="dots">
+
+                    <button
+                        class="dot active"
+                        type="button"
+                        data-slide="0"
+                        aria-label="Show project 1">
+                    </button>
+
+                    <button
+                        class="dot"
+                        type="button"
+                        data-slide="1"
+                        aria-label="Show project 2">
+                    </button>
+
+                    <button
+                        class="dot"
+                        type="button"
+                        data-slide="2"
+                        aria-label="Show project 3">
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FIXED BACKGROUND -->
+        <section class="section fixed-background">
+
+            <div class="content quote-content">
+
+                <p class="section-code">
+                    PROCESS.LOG
+                </p>
+
+                <h2>
+                    Learn → Build → Test → Improve
+                </h2>
+
+                <p>
+                    I learn new technologies best by using them in
+                    real projects and improving the result step by step.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- VIDEO -->
+        <section id="video" class="section video-section">
+
+            <div class="content">
+
+                <div class="section-title">
+
+                    <p class="section-code">
+                        03 / DEMO
+                    </p>
+
+                    <h2>
+                        Project Demo
+                    </h2>
+
+                    <p class="section-intro">
+                        A short demonstration of one of my projects.
+                    </p>
+
+                </div>
+
+
+                <div class="monitor">
+
+                    <div class="monitor-bar">
+
+                        <div class="monitor-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <p>
+                            demo.mp4
+                        </p>
+
+                    </div>
+
+
+                    <div class="video-container">
+
+                        <video
+                            controls
+                            muted
+                            playsinline>
+
+                            <source
+                                src="assets/demo.mp4"
+                                type="video/mp4">
+
+                            Your browser does not support HTML5 video.
+
+                        </video>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+        <section id="contact" class="section contact">
+
+            <div class="content contact-content">
+
+                <p class="section-code">
+                    04 / CONTACT
+                </p>
+
+                <h2>
+                    Let's Connect
+                </h2>
+
+                <p class="contact-description">
+                    Feel free to contact me through email,
+                    GitHub, or LinkedIn.
+                </p>
+
+
+                <a
+                    class="email"
+                    href="mailto:ycliou2@illinois.edu">
+                    ycliou2@illinois.edu
+                </a>
+
+
+                <div class="social-links">
+
+                    <a
+                        href="https://github.com/220yc"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        <span
+                            class="social-icon github-icon"
+                            aria-hidden="true">
+                        </span>
+
+                        GitHub
+
+                    </a>
+
+
+                    <a
+                        href="https://www.linkedin.com/in/220yc/"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        <span
+                            class="social-icon linkedin-icon"
+                            aria-hidden="true">
+                        </span>
+
+                        LinkedIn
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="content footer-content">
+
+            <p>
+                ChristineOS v1.0
+            </p>
+
+            <p>
+                CS 409 MP1
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- MODAL -->
+    <div
+        id="projectModal"
+        class="modal"
+        aria-hidden="true">
+
+        <button
+            class="modal-background"
+            type="button"
+            aria-label="Close project details">
+        </button>
+
+
+        <div
+            class="modal-box"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="modalTitle">
+
+            <div class="modal-terminal-bar">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+                <p>
+                    project-details
+                </p>
+
+            </div>
+
+            <button
+                id="closeModal"
+                class="close-button"
+                type="button"
+                aria-label="Close project details">
+                &times;
+            </button>
+
+            <p class="modal-path">
+                ~/project/details
+            </p>
+
+            <h2 id="modalTitle">
+                Project
+            </h2>
+
+            <p id="modalText">
+                Project description.
+            </p>
+
+        </div>
+
+    </div>
+
+</body>
+
 </html>
